@@ -10,14 +10,39 @@
 
 
 <script>
-	/* Create a Javascript program that within the console will print "Hello from the Console" and on the Page will display "Hello from the Browser".*/
+	/* Basic Exercise 1 - Create a Javascript program that within the console will print "Hello from the Console" and on the Page will display "Hello from the Browser".*/
 
-	console.log ("Hello from the Console")
-	document.write ("Hello from the Browser")
+	console.log ("Hello from the Console");
+	document.write ("Hello from the Browser", "<br>");
 
 </script>
 
-<script type="text/javascript" src="FSWD30-JS-Day01_Basic_Exercise.js"></script>
+
+<script type="text/javascript" src="FSWD30-JS-Day01_Basic_Exercise.js">
+	/*Basic Exercise 2 - Create an external Javascript program that prints the following message on the screen "Hi my name is Mathias" and link it to HTML document. Once the HTML file is opened, it should display the message from the Javascript.*/
+
+</script>
+
+<script>
+	/*Basic Exercise 3 - Extend the previous example (basic exercise 2) through adding the following text to it "and I am 25 years old". The addition of the text should come from the script within the body tag in the HTML document. Preferable way will be the age value to come from a variable.*/
+
+	var age = 25
+	var a = (" and I am " + age + " years old.")
+
+	document.write(a);
+
+</script>
+
+<script>
+	/*Basic Exercise 4 | Team players
+	Create an array called players and add their names to it. The names are Martin, Thomas, Peter, Mathias and Niki. Output only the third player in the following context "The most valuable player of the match is <player_name>".*/
+
+	var players = ["Martin", "Thomas", "Peter", "Mathias", "Niki"]
+
+	document.write("The most valuable player of the match is " + players[2] + "." )
+
+</script>
+
 
 	
 </body>

@@ -4,3 +4,4 @@ link it to HTML document. Once the HTML file is opened,
 it should display the message from the Javascript.*/
 
 document.write("Hi my name is Mathias");
+
